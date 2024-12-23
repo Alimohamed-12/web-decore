@@ -1,0 +1,556 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.nann{
+    margin-left: 220px;
+}
+.nann li {
+    margin: 0 10px;
+}
+.nann li a{
+    color: rgba(31, 31, 31, 1);
+    font-family: "Inter", sans-serif;
+font-size: 22px;
+font-weight: 600;
+line-height: 26.63px;
+text-align: left;
+
+}
+.parent-top div div h2{
+    /* font-family: Inter; */
+    font-size: 73px;
+    font-weight: 500;
+    /* line-height: 160.96px; */
+    text-align: left;
+ 
+     
+}
+.parent-top div div p{
+    font-family: "Inter", sans-serif;
+font-size: 14px;
+font-weight: 500;
+line-height: 22.12px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+text-align: justify;
+color: rgba(84, 84, 84, 1);
+;
+}
+.bottom-left{
+    position: relative;
+}
+.bottom-left div img{
+    width: 450px;
+    height: 220px;
+}
+.bottom-left div h6{
+    width: 60px;
+    height: 80px;
+    position: absolute;
+    right: 90px;
+    bottom: -8px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+.bottom-left div h4{
+    width: 100px;
+    height: 100px;
+border: 2px solid black;
+border-radius: 6px;
+    position: absolute;
+    left: -35px;
+    top: -25px;
+    z-index: -4;
+}
+.item1-bottom div .div1{
+    width: 699px;
+height: 116px;
+gap: 0px;
+opacity: 0px;
+
+}
+.item1-bottom div .div1 p{
+    /* color: rgba(84, 84, 84, 1);
+    text-align: justify;
+    width: 120px; */
+}
+.service-item{
+display: flex;
+
+}
+.service-info{
+    width: 100%;
+    opacity: 0px;
+margin-left: 17px;
+margin-top: 19px;
+    
+    }
+ 
+.service-item .service-info p{
+font-size: 14px;
+font-weight: 500;
+color: rgba(84, 84, 84, 1);
+width: 220px;
+}
+.title-section-2 span{
+    width: 60px;
+    height: 2px;
+    background-color: black;
+    display: inline-block;
+    margin-right: 7px;
+    
+}
+.section3 div div img{
+    width: 100%;
+}
+.section3 .row .des1 h2{
+    width: 704px;
+height: 140px;
+left: 813px;
+gap: 0px;
+opacity: 0px;
+font-family: Inter;
+font-size: 48px;
+font-weight: 600;
+line-height: 70.19px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.section3 .row .des1 p{
+    width: 100%;
+  margin: 42px 0;
+font-size: 17px;
+font-weight: 500;
+line-height: 29.65px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color:  rgba(84, 84, 84, 1);
+text-align: justify;
+}
+.section3 .row .des1 h4{
+    width: 704px;
+height: 43.5px;
+
+
+color:  rgba(31, 31, 31, 1);
+font-family: "Inter", sans-serif;
+font-size: 15px;
+font-weight: 600;
+line-height: 39.65px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+box-shadow: 4px 5px 1 rgb(116, 60, 60);
+box-shadow: 1px 1px 1px rgb(210, 208, 208);
+
+}
+.des1 button {
+opacity: 0px;
+background: rgba(31, 31, 31, 1);
+color: white;
+margin-top: 20px;
+padding: 12px 19px;
+}
+.section4{
+    /* height: 100vh; */
+    /* background-color: red; */
+    padding-top: 0;
+    /* background-color: gray; */
+}
+.section4 .row .rig4{
+
+    /* height: 100vh; */
+    margin-top: 0;
+}
+.section4 .row .rig4 img{
+    height: 100%;
+    width: 100%;
+}
+.section4 .row .leff h1{
+    font-family: "Inter", sans-serif;
+font-size: 38px;
+font-weight: 600;
+line-height: 50.19px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.section4 .row .leff div img {
+ 
+width: 50px;
+height: 50px;
+border-radius: 50%;
+
+
+}
+.section4 .row .leff div div .infoo{
+    /* background-color: red; */
+    width: 409px;
+    text-align: justify;
+height: 130px;
+top: 217px;
+left: 135px;
+gap: 0px;
+opacity: 0px;
+
+}
+/* .section4 .row .leff div div .aff{
+
+} */
+.section4 .row .leff div div .aff::after{
+position: absolute;
+content: "";
+width: 2px;
+height: 52px;
+left: 98px;
+
+background-color: gray;
+}
+.sec5{
+    /* height: 108vh; */
+ margin-top: 50px;
+/* background-color: red; */
+position: relative;
+}
+.sec5 .row .left5{
+    /* background-color: gray; */
+    height: 100%;
+    /* position: relative; */
+}
+.sec5 .row .left5 img{
+width: 95%;
+}
+.sec5 .row .right5 h1{
+    font-family: "Inter", sans-serif;
+font-size: 48px;
+font-weight: 600;
+line-height: 72.19px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.diour{
+    background: rgba(31, 31, 31, 1);
+    width: 450px;
+    height: 421px;
+    /* margin-top: 60px; */
+    padding: 40px 60px;
+    margin-left: auto;
+    top: 218px;
+    left: 914px;
+    gap: 0px;
+    border-radius: 4px ;
+    opacity: 0px;
+    
+
+}
+.diour p{
+    color: rgba(255, 255, 255, 1);
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    margin: 64px 0;
+    font-weight: 500;
+    line-height: 23.65px;
+  font-weight: 160px;
+
+    
+}
+.diour .diou-info{
+
+    display: flex;
+}
+.diour .diou-info div h3{
+   
+    padding-top: 4px;
+    color: rgba(255, 255, 255, 1);
+}
+.diour .diou-info div p{
+ color:  rgba(146, 146, 146, 1);
+    margin-top: 0;
+}
+.left5 .diotop img{
+    width: 70px;
+    height: 70px;
+}
+.dtop {
+    position: absolute;
+    background: rgba(31, 31, 31, 1);
+    width: 450px;
+    height: 421px;
+    margin-top: 50px;
+    padding: 40px 60px;
+    left: 192px;
+    top: 104px;
+
+}
+.sec5 .row .dtop p{
+    color: rgba(255, 255, 255, 1);
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    margin: 64px 0;
+    font-weight: 500;
+    line-height: 23.65px;
+  font-weight: 160px;
+}
+.dtop .diou-info{
+    display: flex;
+
+}
+.dtop .diou-info div{
+
+}
+.dtop .diou-info div h3{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+
+}
+.dtop .diou-info div h6{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:  rgba(146, 146, 146, 1);
+   
+}
+.sec5 .row .left5 div span{
+    background: rgba(241, 241, 241, 1);
+    width: 53px;
+    height: 43px;
+    top: 745px;
+    margin: 0 10px;
+    left: 111px;
+    text-align: center;
+    line-height: 41px;
+    gap: 0px;
+    opacity: 0px;
+    display: inline-block;
+    margin-top: 28px;
+    margin-left: 0;
+}
+.sec6{
+    height: 60vh;
+    /* background-color: red; */
+    margin-top: 42px;
+    position: relative;
+}
+.parent-sec6{
+   width: 60%; 
+/*   
+   background-color: gray; */
+   position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.parent-sec6 h2{
+
+    font-family: "Inter", sans-serif;
+font-size: 38px;
+font-weight: 600;
+line-height: 50.19px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+width: 80%;
+margin: auto;
+color: rgba(31, 31, 31, 1);
+
+}
+.parent-sec6 p{
+    width: 77%;
+    text-align: center;
+    /* margin: auto; */
+    font-size: 14px;
+    color: rgba(84, 84, 84, 1);
+    margin: 30px auto 57px auto;
+
+}
+.emai-sec6{
+    box-shadow: 0px 10px 100px 0px rgba(0, 0, 0, 0.14);
+    /* background-color: red; */
+    padding: 11px 11px 11px 20px;
+    display: flex;
+    justify-content: space-between;
+    color:  rgba(140, 140, 140, 1);
+}
+.emai-sec6 button{
+    background: rgba(31, 31, 31, 1);
+    font-family: "Inter", sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 29.05px;
+    text-align: left;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    box-sizing: border-box;
+padding: 10px 17px;
+}
+.emai-sec6 span{
+    margin-top: 12px;
+}
+.emai-sec6 span{
+    margin-left: 5px;
+}
+ul{
+    list-style-type: none;
+}
+footer{
+    background: rgba(31, 31, 31, 1);
+    color: white;
+    padding: 60px 35px 40px 35px;
+}
+footer div ul .fistli{
+    margin-bottom: 40px;
+
+}
+footer div ul li {
+    font-size: 17px;
+    margin: 14px 0;
+}
+footer div ul li p{
+    width: 220px;
+ 
+}
+
+@media (max-width:767px) {
+    .nann{
+        margin-left: 0;
+    }
+    .parent-top div div h2{
+        font-size: 37px;
+    }
+    .parent-top div div p{
+        width: 85%;
+    font-size: 11px;
+    }
+    .bottom-left div h4{
+        left: 17px;
+        width: 80px;
+        height: 70px;
+    }
+    .bottom-left div img{
+        width: 80%;
+        margin: auto;
+    }
+    .bottom-left div h6{
+        right: 23px;
+    }
+    .service-item .service-info p{
+        width: 100%;
+    }
+    .service-item .service-info{
+        margin-left: 20px;
+    }
+    .section3 .row .des1 h2{
+        font-size: 30px;
+        width: 100%;
+        
+    }
+.section4 .row .leff h1{
+    font-size: 35px;
+}
+.section4 .row .leff div div .infoo{
+    width: 370px;
+    text-align: justify;
+}
+.section4 .row .rig4 {
+ margin: auto;
+ width: 80%;
+
+}
+.section4 .row .rig4 img {
+    width: 100%;
+    height: 320px;
+}
+.dtop{
+    width: 320px;
+    padding: 20px 30px;
+    position: absolute;
+    left: 180px;
+    height: 350px;
+}
+.sec5 .row .dtop p{
+    margin: 36px 0;
+    text-align: justify;
+    font-size: 15px;
+}
+.sec5 .row .right5 h1{
+font-size: 35px;
+line-height: 50px;
+margin: 20px 0;
+}
+.parent-sec6{
+    width: 90%;
+    /* background-color: red; */
+}
+.parent-sec6 h2{
+    font-size: 27px;
+    width: 90%;
+    line-height: 40px;
+}
+}
+
+/* ////////////////////////////  Register bage //////////////////////////// */
+
+.reg-parent{
+    /* background-color: grey; */
+    height: 90vh;
+    position: relative;
+}
+.reg-parent form{
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   background-color: rgb(40, 40, 40);
+   color: white;
+   padding: 30px  50px;
+   border-radius: 12px;
+}
+.reg-parent form label{
+font-size: 20px;
+padding: 10px;
+}
+.reg-parent form input{
+    outline: 0;
+    border: 0;
+    
+}
+.reg-parent form .pasword{
+    margin-left: 22px;
+}
+.reg-parent form p{
+    margin-top: 20px ;
+    padding-left: 30px;
+}
+.reg-parent form .regsubmit{
+    padding: 5px 10px;
+    color: rgb(50, 49, 49);
+    border-radius: 6px;
+    background-color: rgb(137, 135, 135);
+    margin-left: 40px;
+}
